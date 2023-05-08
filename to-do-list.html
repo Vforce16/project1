@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>box</title>
+  <link rel="stylesheet" href="to-do-list.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="intro col-12">
+      <h1>VFORCE TO-DOs</h1>
+      <div>
+        <div class="border1"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="helpText col-12">
+      <p id="first">Type in your schedule to add items to your list.</p>
+      <p id="second">Click on the item to mark it as complete.</p>
+      <p id="third">Click the "X" to remove the item from your list.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <label for="userInput"></label><input id="userInput" type="text" placeholder="New item..." maxlength="50">
+      <button id="enter">ADD</button>
+    </div>
+
+    <div class="listItems col-12">
+      <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+      </ul>
+    </div>
+  </div>
+
+
+</div>
+<script type="text/javascript" src="todolist.js">
+</script>
+</body>
+</html>
